@@ -28,7 +28,7 @@ informacje by³y formatowane w podobnym stylu jak logi serwera httpd.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
