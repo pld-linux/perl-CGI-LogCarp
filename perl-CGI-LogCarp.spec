@@ -3,7 +3,7 @@ Summary:	CGI-LogCarp perl module
 Summary(pl):	Modu³ perla CGI-LogCarp
 Name:		perl-CGI-LogCarp
 Version:	1.12
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
