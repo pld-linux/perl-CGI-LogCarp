@@ -3,11 +3,11 @@ Summary:	CGI::LogCarp perl module
 Summary(pl):	Modu³ perla CGI::LogCarp
 Name:		perl-CGI-LogCarp
 Version:	1.12
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CGI/LogCarp-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -26,7 +26,8 @@ informacje by³y formatowane w podobnym stylu jak logi serwera httpd.
 %setup -q -n LogCarp-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -40,5 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README TODO
-%{perl_sitelib}/CGI/LogCarp.pm
+%{perl_vendorlib}/CGI/LogCarp.pm
 %{_mandir}/man3/*
