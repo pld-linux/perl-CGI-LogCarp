@@ -26,7 +26,7 @@ informacje by³y formatowane w podobnym stylu jak logi serwera httpd.
 %setup -q -n LogCarp-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
