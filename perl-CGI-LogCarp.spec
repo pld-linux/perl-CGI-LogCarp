@@ -1,6 +1,7 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_with	tests	# perform "make test"
+			# "i'm dumb therefore i fail"
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	CGI::LogCarp perl module
