@@ -29,7 +29,7 @@ informacje by³y formatowane w podobnym stylu jak logi serwera httpd.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
