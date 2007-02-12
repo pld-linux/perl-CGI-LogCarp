@@ -5,7 +5,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	CGI::LogCarp perl module
-Summary(pl):	Modu≥ perla CGI::LogCarp
+Summary(pl.UTF-8):   Modu≈Ç perla CGI::LogCarp
 Name:		perl-CGI-LogCarp
 Version:	1.12
 Release:	9
@@ -23,10 +23,10 @@ CGI::LogCarp redefines the STDERR stream and allows the definition of
 new STDBUG and STDLOG streams in such a way that all messages are
 formatted similar to an HTTPD error log.
 
-%description -l pl
-CGI::LogCarp redefiniuje strumieÒ STDERR i umoøliwia zdefiniowanie
-nowych strumieni STDEBUG i STDLOG w taki sposÛb, øeby wszystkie
-informacje by≥y formatowane w podobnym stylu jak logi serwera httpd.
+%description -l pl.UTF-8
+CGI::LogCarp redefiniuje strumie≈Ñ STDERR i umo≈ºliwia zdefiniowanie
+nowych strumieni STDEBUG i STDLOG w taki spos√≥b, ≈ºeby wszystkie
+informacje by≈Çy formatowane w podobnym stylu jak logi serwera httpd.
 
 %prep
 %setup -q -n LogCarp-%{version}
