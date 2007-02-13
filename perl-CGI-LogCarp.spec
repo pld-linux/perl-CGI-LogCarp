@@ -5,7 +5,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	CGI::LogCarp perl module
-Summary(pl.UTF-8):   Moduł perla CGI::LogCarp
+Summary(pl.UTF-8):	Moduł perla CGI::LogCarp
 Name:		perl-CGI-LogCarp
 Version:	1.12
 Release:	9
