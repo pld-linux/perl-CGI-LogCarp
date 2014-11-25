@@ -2,7 +2,9 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 			# "i'm dumb therefore i fail"
-#
+
+%define		pdir	CGI
+%define		pnam	LogCarp
 %include	/usr/lib/rpm/macros.perl
 Summary:	CGI::LogCarp perl module
 Summary(pl.UTF-8):	Moduł perla CGI::LogCarp
@@ -13,8 +15,9 @@ License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CGI/LogCarp-%{version}.tar.gz
 # Source0-md5:	850d4b10812339a95fd4b21680a4c692
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/CGI-LogCarp/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
