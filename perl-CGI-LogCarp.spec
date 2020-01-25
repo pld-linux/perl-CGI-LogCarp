@@ -5,7 +5,6 @@
 
 %define		pdir	CGI
 %define		pnam	LogCarp
-%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::LogCarp perl module
 Summary(pl.UTF-8):	Moduł perla CGI::LogCarp
 Name:		perl-CGI-LogCarp
