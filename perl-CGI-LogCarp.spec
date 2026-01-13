@@ -9,7 +9,7 @@ Summary:	CGI::LogCarp perl module
 Summary(pl.UTF-8):	Moduł perla CGI::LogCarp
 Name:		perl-CGI-LogCarp
 Version:	4.48
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CGI/LogCarp-%{version}.tar.gz
